@@ -66,6 +66,7 @@ function sonIguales(x, y) {
   }else{
     return false;
   }
+  
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -125,7 +126,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%3===1){
+  if (num%2===1){
     return true;
   }else{
     return false
